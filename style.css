@@ -1,5 +1,49 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #121212 ; 
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    color:#ebebeb;
+    text-align: left;
+    max-width: 1300px;
+    box-sizing: border-box;
+    position: relative;
 }
+
+a{
+    text-decoration:underline;
+
+}
+
+#navbar{
+    display: block;
+    width: 200px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #2C2F33;
+}
+
+li, a{
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+
+.links:link{
+    color: hotpink;
+}
+
+.links:visited{
+    color: hotpink;
+}
+
+.links:hover{
+    text-decoration: none;
+  
+  
+  
+ 
+  
