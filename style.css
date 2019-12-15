@@ -19,11 +19,12 @@ ul{
     border: 0;
 }
 
-li {
+.section a {
     display: block;
     background: #2c2f33;
     padding: 8px 16px;
     text-decoration: none;
+    
 }
 
 li:hover {
