@@ -3,21 +3,24 @@ body {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     color:#ebebeb;
     text-align: left;
-    max-width: 1300px;
+    max-width: 1000;
     box-sizing: border-box;
-    position: relative;
+    
 }
-
 
 ul{
     display: block;
     width: 200px;
-    height: 150px;
+    height: 1000px ;
     list-style-type: none;
     margin: 0;
     padding: 0;
     border: 0;
+    float: left;
 }
+
+
+
 
 li a {
     display: block;
@@ -35,6 +38,8 @@ li a:hover{
     background-color: white;   
     color: black;   
 }
+
+
 
 
 
