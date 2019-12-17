@@ -3,50 +3,46 @@ body {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     color:#ebebeb;
     text-align: left;
-    max-width: 1000;
     box-sizing: border-box;
+    position:static;
     
+    
+}
+
+article{
+    max-width: 100em;
+    line-height: 1.5;
 }
 
 ul{
     display: block;
-    width: 200px;
+    width: 180px;
     height: 1000px ;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border: 0;
+    border: 0px;
     float: left;
 }
 
-
-
-
 li a {
     display: block;
-    padding: 8px 16px;
+    padding: 10px 11px;
+    margin: 10px 10px 10px 10px;
     text-decoration: none;
     
 }
 
 li a{
-    background-color: #2c2f33;
+    background-color: transparent;
     color: hotpink;
 }
 
 li a:hover{
     background-color: white;   
-    color: black;   
+    color: black;
+    text-decoration: underline; 
 }
-
-
-
-
-
-
-
-
-
 
 .in-text {
     color: hotpink;
